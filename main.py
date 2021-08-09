@@ -1,11 +1,11 @@
+# задание 1
 duration = int(input('Введите время в секундах: '))
 days = duration // (60 * 60 * 24)
 hours = (duration - days * (60 * 60 * 24)) // (60 * 60)
 minutes = (duration - days * (60 * 60 * 24) - hours * (60 * 60)) // 60
 seconds = duration - days * (60 * 60 * 24) - hours * (60 * 60) - minutes * 60
 print(days, 'дн', hours, 'час', minutes, 'мин', seconds, 'сек')
-
-
+# задание 2
 my_list = []
 for num in range(1, 1001, 2):
     my_list.append(num ** 3)
@@ -26,8 +26,7 @@ for num in my_list:
     if check_sum % 7 == 0:
         final_sum += num
 print(final_sum)
-
-
+# задание 3
 percent = int(input('Введите число процента: '))
 if percent == 1:
     word = 'процент'
