@@ -1,6 +1,6 @@
 import os
 
-pattern = {'my_project': ['settings', 'mainapp', 'adminapp', 'authapp']}  # we can save .json
+pattern = {'my_project': ['settings', 'mainapp', 'adminapp', 'authapp']}
 for root, folders in pattern.items():
     if os.path.exists(root):
         print(root, 'существует')

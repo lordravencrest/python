@@ -1,10 +1,10 @@
 import os
 import shutil
-my_dir = 'task3'  # save folder
+my_dir = 'task3'
 if not os.path.exists(my_dir):
     os.mkdir(my_dir)
 
-folder = r'my_project'  # search folder
+folder = r'my_project'
 files = []
 
 
